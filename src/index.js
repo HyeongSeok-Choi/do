@@ -18,11 +18,15 @@ import NotificationList from './chapter_06/Notificationlist';
 
 import Accommodate from './chapter_07/Accommodate';
 
+import ConfirmButton from './chapter_08/ConfirmButton';
+
+import LandingPage from './Chapter_09/LandingPage';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
   root.render(
   <React.StrictMode>
-      <Accommodate />
+      <LandingPage />
     </React.StrictMode>
   );
 
