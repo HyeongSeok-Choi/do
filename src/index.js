@@ -32,11 +32,15 @@ import ProfileCard from './chapter_13/ProfileCard'
 
 import DarkOrLight from './chapter_14/DarkOrLight'
 
+import MainPage from './chapter_15/MainPage'
+
+import Block from './chapter_15/Blocks'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
   root.render(
   <React.StrictMode>
-      <DarkOrLight />
+      <Block />
     </React.StrictMode>
   );
 
